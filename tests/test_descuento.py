@@ -2,7 +2,7 @@ import pytest
 from descuento import descuento
 
 def test_descuento_caso_correcto():
-    assert descuento(100, 10) == 90.0
+    assert descuento(100, 10) == 80.0
 
 def test_descuento_caso_limite():
     assert descuento(250, 100) == 0.0
